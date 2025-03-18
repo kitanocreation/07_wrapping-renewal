@@ -1,0 +1,14 @@
+@import '../base';
+
+@mixin font-m-pc {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@mixin font-lll-pc {
+    font-size: 32px;
+}
+
+@mixin h2-pc {
+    @include font-lll-pc;
+}
