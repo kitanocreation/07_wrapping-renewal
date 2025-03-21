@@ -238,9 +238,6 @@ html body .wrap_main .wrap-order article .wrap-container p {
 html body .wrap_main .wrap-order article:nth-of-type(1) {
   margin: 60px auto 0 auto;
 }
-html body .wrap_main .wrap-order article:nth-of-type(3) .wrap-container p {
-  width: 100%;
-}
 html body .wrap_main .wrap-order .wrap_img {
   display: block;
   width: 9vw;
