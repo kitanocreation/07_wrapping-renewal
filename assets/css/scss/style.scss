@@ -150,11 +150,10 @@ html {
     
                 .wrap_img {
                     display: block;
-                    width: 9vw;
-                    height: 9vw;
+                    width: 40px;
+                    height: 40px;
                     margin: 0 auto;
                     position: relative;
-                    transform: rotate(90deg);
                     z-index: 0;
                 }    
             }
@@ -263,6 +262,7 @@ html {
                             align-items: end;
 
                             h3 {
+                                
                                 @include font-ll;
                                 color: $brown;
 
@@ -282,6 +282,18 @@ html {
                                 span {
                                     @include font-l;
                                     color: $brown;
+                                }
+                            }
+
+                            .wrap-flex {
+
+                                div {
+
+                                    .wrap_p {
+                                        padding-top: 0;
+                                        @include font-ss;
+                                        text-align: center;
+                                    }    
                                 }
                             }
                         }
@@ -362,7 +374,6 @@ html {
 
                             p {
                                 width: calc(100% - 32px);
-                                padding-top: 24px;
                                 margin: 0 auto;
                                 @include font-s;
                                 color: $grey;

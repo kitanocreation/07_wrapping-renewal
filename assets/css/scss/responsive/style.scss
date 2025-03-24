@@ -133,7 +133,7 @@
                         .wrap_img {
                             width: 3.1vw;
                             height: 3.1vw;
-                            transform: rotate(0);
+                            transform: rotate(-90deg);
                         }
                     }
                 }
@@ -210,6 +210,18 @@
                                             @include font-ll;
                                         }
                                     }
+
+                                    .wrap-flex {
+                                        width: 30.64vw;
+
+                                        div {
+                                            width: 100%;
+
+                                            img {
+                                                width: 100%;
+                                            }   
+                                        }
+                                    }
                                 }
 
                                 h4 {
@@ -274,7 +286,7 @@
                                 }
 
                                 .wrap-flex {
-                                    width: 15.6vw;
+                                    width: 33vw;
                                     margin: 24px auto 0 auto;
 
                                     img {
@@ -285,6 +297,11 @@
                                     img:nth-of-type(1) {
                                         margin: 0 0 0 0;
                                     }
+
+                                    .wrap_p {
+                                        width: initial;
+                                        @include font-s;
+                                    } 
                                 }
                             }
                         }

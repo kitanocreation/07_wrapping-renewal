@@ -240,11 +240,10 @@ html body .wrap_main .wrap-order article:nth-of-type(1) {
 }
 html body .wrap_main .wrap-order .wrap_img {
   display: block;
-  width: 9vw;
-  height: 9vw;
+  width: 40px;
+  height: 40px;
   margin: 0 auto;
   position: relative;
-  transform: rotate(90deg);
   z-index: 0;
 }
 html body .wrap_main .wrap-detail {
@@ -358,6 +357,11 @@ html body .wrap_main .wrap-detail article .wrap-container .wrap-con p span {
   font-weight: 700;
   color: #4B0718;
 }
+html body .wrap_main .wrap-detail article .wrap-container .wrap-con .wrap-flex div .wrap_p {
+  padding-top: 0;
+  font-size: 12px;
+  text-align: center;
+}
 html body .wrap_main .wrap-detail article .wrap-container h4 {
   padding: 12px 0 0 24px;
   font-size: 16px;
@@ -428,7 +432,6 @@ html body .wrap_main .wrap-detail article .wrap-container:nth-of-type(2) .wrap-c
 }
 html body .wrap_main .wrap-detail article .wrap-container:nth-of-type(2) .wrap-con p {
   width: calc(100% - 32px);
-  padding-top: 24px;
   margin: 0 auto;
   font-size: 14px;
   color: #414143;
@@ -813,7 +816,7 @@ img {
   html body .wrap_main .wrap-order .wrap-flex .wrap_img {
     width: 3.1vw;
     height: 3.1vw;
-    transform: rotate(0);
+    transform: rotate(-90deg);
   }
   html body .wrap_main .wrap-detail nav {
     width: 84.4vw;
@@ -871,6 +874,15 @@ img {
     font-size: 24px;
     font-weight: 700;
   }
+  html body .wrap_main .wrap-detail article .wrap-flex .wrap-container .wrap-con .wrap-flex {
+    width: 30.64vw;
+  }
+  html body .wrap_main .wrap-detail article .wrap-flex .wrap-container .wrap-con .wrap-flex div {
+    width: 100%;
+  }
+  html body .wrap_main .wrap-detail article .wrap-flex .wrap-container .wrap-con .wrap-flex div img {
+    width: 100%;
+  }
   html body .wrap_main .wrap-detail article .wrap-flex .wrap-container h4 {
     padding: 12px 0 0 40px;
     display: flex;
@@ -924,7 +936,7 @@ img {
     text-align: center;
   }
   html body .wrap_main .wrap-detail article .wrap-container:nth-of-type(2) .wrap-con .wrap-flex {
-    width: 15.6vw;
+    width: 33vw;
     margin: 24px auto 0 auto;
   }
   html body .wrap_main .wrap-detail article .wrap-container:nth-of-type(2) .wrap-con .wrap-flex img {
@@ -933,6 +945,10 @@ img {
   }
   html body .wrap_main .wrap-detail article .wrap-container:nth-of-type(2) .wrap-con .wrap-flex img:nth-of-type(1) {
     margin: 0 0 0 0;
+  }
+  html body .wrap_main .wrap-detail article .wrap-container:nth-of-type(2) .wrap-con .wrap-flex .wrap_p {
+    width: initial;
+    font-size: 14px;
   }
   html body .wrap_main .wrap-detail article:nth-of-type(2) {
     transform: translateX(20px);
